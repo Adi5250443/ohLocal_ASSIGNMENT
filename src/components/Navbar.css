@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "jost",sans-serif;
+}
+
+.Navbar-main
+{
+    width: 100%;
+    height: 4rem;
+    display: grid;
+    grid-template-columns: 1rem 1fr 2fr 1fr 1rem;
+    background-color: rgba(5, 8, 48, 0.925);
+}
+.Toggler-bar
+{
+    display: flex;
+    align-items: center;
+   color: aliceblue;
+   grid-column: 2/3;
+}
+.Search-bar
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    grid-column: 3/4;
+}
+.Search-bar-text
+{
+    width: 100%;
+
+}
+.Search-bar button
+{
+    width: auto;
+    background-color: rgb(219, 167, 69);
+}
+.Navbar-list
+{
+    grid-column: 4/5;
+  
+}
+.Navbar-list ul
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+     grid-template-columns: 3fr repeat(3,1fr);
+}
+.Navbar-list ul li 
+{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+.Navbar-list ul li a
+{
+    text-decoration: none;
+    color: aliceblue;
+}

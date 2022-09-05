@@ -1,0 +1,76 @@
+.Product-bg
+{
+    width: 100%;
+    /* height: 100%; */
+    background-color: rgb(245, 243, 243);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 3rem 2fr 2fr 3rem;
+    /* grid-template-columns: repeat(auto-fill,minmax(225px,2fr)); */
+}
+.Product-details
+{
+    display: flex;
+    grid-column: 2/3;
+
+}
+.Product-img img
+{
+   
+    height: 250px;
+}
+
+.Product-description
+{
+    margin: 15px;
+
+}
+.Online-price-icon
+{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.Online-price
+{
+    margin-left: 150px;
+}
+
+.Product-status-bar
+{  
+    border-left: 2px solid gainsboro;
+    margin: 15px;
+    padding-left: 15px;
+    grid-column: 3/4;
+}
+.Product-status
+{
+    display: flex;
+    font-size: 30px;
+}
+.Product-status-icon img
+{
+   margin: 5px;
+}
+.Time
+{
+    
+    color: red;
+}
+.Bids
+{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+.Bids-text
+{
+    color: rgb(130, 134, 134);
+}
+.Total-bids
+{
+    border-left: 3px solid gainsboro;
+    font-size: 40px;
+    margin-left: 20px;
+    color: rgb(7, 228, 154);
+}
